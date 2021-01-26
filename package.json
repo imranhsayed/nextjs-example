@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9",
+    "next": "10.0.5",
+    "postcss": "^7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.32.5"
+  },
+  "devDependencies": {
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^14.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "precss": "^4.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}
